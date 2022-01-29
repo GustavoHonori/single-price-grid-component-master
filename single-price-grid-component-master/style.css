@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(204, 43%, 93%);
+    font-size: 16px;
+    font-family: 'Karla', 'sans-serif';
+    height:100vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    box-shadow: 0 0 58px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    max-width: 650px;
+    position: relative;
+    top: 250px;
+    border-radius: 10px;
+}
+
+.top-section {
+    background: white;
+    padding: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    word-spacing:2px;
+}
+
+.top-section h1 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 25px;
+ }
+
+ .top-section h2 {
+    color:hsl(71, 73%, 54%);
+    padding-bottom: 25px;
+
+ }
+
+ .top-section p {
+     color: hsl(218, 22%, 67%);
+ }
+
+ .bottom-section {
+     display: flex;
+     flex-direction: row;
+     color: white;
+ }
+ .left{
+     width: 100%;
+     padding:30px;
+     background:hsl(179, 62%, 40%);
+     border-bottom-left-radius: 10px;
+ }
+
+ .left h2{
+
+ }
+
+ .left h2,p {
+     padding-bottom: 10px;
+ }
+ .left .dollar {
+     font-size: 44px;
+     font-weight: 500px;
+     padding-right: 8px;
+ }
+
+ .btn-container {
+     padding-top:45px;
+     text-align: center;
+ }
+
+ .btn-container .btn {
+     background: hsl(71, 73%, 54%);
+     color: white;
+     padding: 15px 90px;
+     border-radius: 5px;
+     box-shadow: 0 0 58px rgba(0, 0, 0, 0.3);
+     width: 100%;
+
+ }
+
+ .right{
+     padding: 30px;
+     background: hsl(179, 62%, 45%);
+ }
+
+ .right h2 {
+     padding-bottom:20px;
+ }
+
+ .right ul li {
+     padding-bottom: 5px;
+ }
+
+ footer {
+     position: fixed;
+     bottom:0;
+     width:100%;
+ }
+ 
+ @media screen and (max-width:768px) {
+     .container {
+         width:400px;
+         margin-bottom: 55px;
+     }
+ .bottom-section {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .left {
+     border-bottom-left-radius: 0px;
+ }
+
+ .btn-container {
+     padding-bottom :10px;
+     text-align: center;
+ }
+ .btn-container .btn {
+     padding:15px 130px;
+ }
+
+ .right {
+     border-bottom-left-radius: 10px;
+ }
+
+ footer{
+     position: fixed;
+     bottom:0;
+     width: 100%;
+ }
+}
